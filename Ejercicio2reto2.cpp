@@ -8,9 +8,7 @@ int main() {
 	cout << "Ingrese su edad: ";
 	cin >> edad;
 	sexo = toupper(sexo);
-	//sexo == 'M';hombres
-	//sexo == 'F';mujeres
-
+	
 	((sexo == 'M') && (edad < 25)) && (pago = 1000);
 	((sexo == 'M') && (edad >= 25)) && (pago = 700);
 	((sexo == 'F') && (edad < 21)) && (pago = 800);
